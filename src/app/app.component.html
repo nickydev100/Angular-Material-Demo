@@ -1,0 +1,7 @@
+<section *ngIf="appLoading" style="position: fixed; top: 0; z-index: 5000; height: 1000px; width: 100%;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: rgba(100, 100, 100, 0.3);">
+        <mat-progress-bar mode="indeterminate" class="progress-bar" style="position: absolute; top: 0px;"></mat-progress-bar>
+    </div>
+</section>
+
+<router-outlet></router-outlet>
